@@ -1,11 +1,12 @@
 # strona-
 
-Projekt strony do testów w Codex.
+Projekt przykładowej strony prezentującej ofertę wynajmu podnośników.
 
-Witryna prezentuje ofertę wynajmu podnośników i składa się z kilku podstron:
+## Pliki
 
-- `index.html` – strona główna z wprowadzeniem
-- `uslugi.html` – szczegóły oferty
-- `o-nas.html` – informacje o firmie
-- `kontakt.html` – dane kontaktowe
-- `style.css` – podstawowe style wizualne
+- `index.html` – strona główna z sekcją hero i odnośnikiem do formularza rezerwacji
+- `uslugi.html` – opis dostępnych usług wraz ze zdjęciami
+- `galeria.html` – galeria wybranych realizacji
+- `cennik.html` – tabela z cenami wynajmu
+- `kontakt.html` – formularz kontaktowy i dane firmy
+- `style.css` – wspólne style dla wszystkich podstron

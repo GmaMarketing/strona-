@@ -3,30 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt - Podnośniki</title>
+    <title>Kontakt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Skontaktuj się z nami</h1>
+    <header class="top-bar">
+        <div class="logo">Podnosniki24</div>
+        <div class="contact-phone"><a href="tel:+48123456789">+48 123 456 789</a></div>
         <nav>
             <ul>
                 <li><a href="index.html">Strona główna</a></li>
                 <li><a href="uslugi.html">Usługi</a></li>
-                <li><a href="o-nas.html">O nas</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <p>Masz pytania lub chcesz otrzymać wycenę?</p>
-        <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
-        <p>Email: <a href="mailto:biuro@podnosniki.pl">biuro@podnosniki.pl</a></p>
+    <section id="formularz" class="contact">
+        <h1>Formularz kontaktowy</h1>
+        <form action="mailto:biuro@podnosniki.pl" method="post" enctype="text/plain">
+            <label>Imię i nazwisko
+                <input type="text" name="name" required>
+            </label>
+            <label>Email
+                <input type="email" name="email" required>
+            </label>
+            <label>Wiadomość
+                <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn">Wyślij</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 Podnośniki dla Klienta</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="uslugi.html">Usługi</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <p>Podnosniki24, ul. Przykładowa 1, 40-000 Mikołów, NIP 123-456-78-90, REGON 987654321</p>
+        <p><a href="#">Polityka prywatności</a> | <a href="#">RODO</a> | <a href="#">Regulamin</a></p>
+        <p>
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="https://via.placeholder.com/24" alt="Facebook">
+            </a>
+        </p>
+        <p>&copy; 2025 Podnosniki24</p>
     </footer>
 </body>
 </html>
